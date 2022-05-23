@@ -1,18 +1,22 @@
 {
-  "name": "weather-app",
+  "name": "weather-app-ouriel",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "nodemon index"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-  },
   "devDependencies": {
     "nodemon": "^2.0.16"
+  },
+  "dependencies": {
+    "@cicciosgamino/openweather-apis": "^5.2.0",
+    "mondayu-logger-ouriel": "^1.0.4",
+    "mondayu-logger-ouriell": "^1.0.4"
   }
 }
